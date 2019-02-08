@@ -48,3 +48,19 @@
 #home-heading h1 {
   text-transform: capitalize;
 }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0, -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
