@@ -24,3 +24,27 @@
   background: url(../img/image3.jpg);
   background-size: cover;
 }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-heading h1 {
+  text-transform: capitalize;
+}
